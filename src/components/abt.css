@@ -1,0 +1,52 @@
+.Container2 {
+    margin: 80px;
+}
+
+.heading {
+    margin-top: 2rem;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.Main {
+    margin-top: 14rem;
+    margin-left: 1rem;
+    color: white;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
+.ABOUT1 {
+    color: white;
+    font-weight: 600;
+    margin-left: 5rem;
+    text-align: center;
+    animation: moveInLeft .5s ease-out .5s;
+    animation-fill-mode: backwards;
+    
+}
+
+.ABOUT1>p{
+    margin-top: -1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 5rem;
+    width: 70%;
+    height: 40px;
+}
+
+.ABOUT2 {
+    margin-left: -7rem;
+     width: 100%;
+     height: 380px;
+     background-image: url("../../public/images/fullstack.svg");
+     background-repeat: no-repeat;
+     background-size: contain;
+      animation: moveInRight .5s ease-out .5s;
+      animation-fill-mode: backwards;
+}
+

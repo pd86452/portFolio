@@ -1,0 +1,103 @@
+
+.Container{
+     height: 100%;
+    position:relative;
+    overflow:hidden;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.9) 100%
+  ),
+  url("../../public/images/pexels.jpg");
+        background-size: cover;
+        content:"";
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        z-index:-1;
+}
+
+.Nav{
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    overflow:hidden;
+    justify-content: space-between;
+}
+
+.NavMenu{
+     display: flex;
+    flex-flow: row nowrap;
+    color: white;
+    margin-left:35px;
+    align-items: center;
+    left: 50px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+.NavMenu>a{
+     display: flex;
+        align-items: center;
+        padding: 0 12px;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+}
+
+.NavMenu>a>span{
+    font-size:13px;
+    letter-spacing:1.42px;
+    position: relative;
+     white-space: nowrap;
+}
+
+
+.Login2{
+ background-color: transparent;
+ color: white;
+   padding: 8px 16px;
+ 
+   letter-spacing:1.8px;
+   border: 1px solid #f9f9f9;
+   border-radius:4px;
+   transition: all 250ms ease 0s;
+   cursor:pointer;
+}
+
+.Login2:hover{
+ background-color:white;
+       color:#000;
+       border-color:black;
+}
+
+.Login_Container{
+  background-color: transparent;
+     flex: 1;
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+.NavMenu>a{
+  border-bottom: 2px solid transparent;
+  display: block;
+}
+
+.NavMenu>a>span:hover {
+  border-bottom: 2px solid white;
+ 
+}
+
+.NavMenu>a>span:active{
+  border-bottom: 2px solid white;
+}
+
